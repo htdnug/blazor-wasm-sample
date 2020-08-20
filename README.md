@@ -1,2 +1,11 @@
-# blazor-wasm-sample
-Sample Blazor WASM application
+# Blazor WASM Sample
+Sample Blazor WASM application. This is a Blazor Web Assembly project with both the ASPNETCORE hosting and PWA (progressive web app) options turned on.
+
+Running the app (set the Server project as startup) will show all examples in the nav menu. 
+
+Examples include: 
+* Code organizational options for component "code behind"
+* Parameters
+* Event Callbacks
+* Javascript Interop
+* Cascading Parameters
