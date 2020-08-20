@@ -1,0 +1,24 @@
+﻿<h3>Code In Component</h3>
+
+@if (isLoading) 
+{ 
+    <LoadingIndicator />
+}
+else
+{
+    <p>Code embedded in component completed run.</p>
+}
+
+@code 
+{      
+    // C# goes here
+
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(5000);
+        this.isLoading = false;
+        await base.OnInitializedAsync(); // Important to keep 'base.' calls in Blazor. OnParameterSet is a must.
+    }
+}

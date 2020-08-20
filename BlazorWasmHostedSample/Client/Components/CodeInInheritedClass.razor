@@ -1,0 +1,13 @@
+﻿@* @inherits will allow you to connect to any class that inherits from ComponentBase *@
+@inherits CodeInInheritedClassComponent
+
+<h3>Code In Inherited Class</h3>
+
+@if (IsLoading)
+{
+    <LoadingIndicator />
+}
+else
+{
+    <p>Code embedded in inherited class completed run.</p>
+}

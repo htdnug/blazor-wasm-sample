@@ -1,0 +1,20 @@
+﻿@page "/cascading-parameters"
+
+<h1>Cascading Parameters</h1>
+
+<p>Value at parent level: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<CascadingValue Value="currentCount" Name="CascadeMe">
+    <CascadingParametersFirstChild />
+</CascadingValue>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

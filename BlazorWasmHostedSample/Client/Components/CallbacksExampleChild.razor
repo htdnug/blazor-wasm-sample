@@ -1,0 +1,15 @@
+﻿<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<p>In Child Display: @currentCount</p>
+
+@code {
+    private int currentCount = 0;
+
+    [Parameter] public EventCallback<int> OnChanged { get; set; }
+
+    private async Task IncrementCount()
+    {
+        currentCount++;
+        await this.OnChanged.InvokeAsync(currentCount);
+    }
+}
