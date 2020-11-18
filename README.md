@@ -1,6 +1,6 @@
 # Blazor Examples
 
-## BlazorWasmHostedSample
+## BlazorWebAssemblySample.sln
 
 This is a Blazor Web Assembly project with both the ASPNETCORE hosting and PWA (progressive web app) options turned on.
 
