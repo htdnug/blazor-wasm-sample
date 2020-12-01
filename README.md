@@ -13,4 +13,4 @@ Examples include:
 * Javascript Interop
 * Cascading Parameters
 
-This code was originally presented at the August 2020 virtual meeting.
+This code was originally presented at the August 2020 virtual meeting for Houma-Thibodaux .NET User Group.
