@@ -1,10 +1,6 @@
 # Blazor Examples
 
-## BlazorWebAssemblySample.sln
-
-This is a Blazor Web Assembly project with both the ASPNETCORE hosting and PWA (progressive web app) options turned on.
-
-Running the app (set the Server project as startup) will show all examples in the nav menu. 
+The solution contains projects for both Blazor Web Assembly and Blazor Server which show examples of Blazor functionality.
 
 Examples include: 
 * Code organizational options for component "code behind"
