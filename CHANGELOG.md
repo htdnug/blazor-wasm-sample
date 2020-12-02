@@ -7,12 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Unless otherwise noted, all changes made by [@jeremyknight-me](https://github.com/jeremyknight-me).
 
-## 01 Dec 2020
+## Dec 2020
 
 ### Added
 
 - Added Blazor Server examples project
 - Added Blazor Server example showing how to update user display without user interaction using timers
+- Added Blazor Server PWA functionality (offline service worker)
 
 ### Changed
 
