@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlazorServerSample</title>
     <base href="~/" />
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
 </head>
@@ -32,5 +33,6 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 </html>
