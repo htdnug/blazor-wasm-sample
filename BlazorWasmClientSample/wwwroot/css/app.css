@@ -20,6 +20,24 @@ app {
     flex-direction: column;
 }
 
+    app #app-loader {
+        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        height: 100vh;
+        left: 0;
+        padding-top: 30vh;
+        position: absolute;
+        min-height: 100vh;
+        min-width: 100vw;
+        text-align: center;
+        top: 0;
+        width: 100vw;
+    }
+
+        app #app-loader span {
+            color: #fff;
+            font-size: 10em;
+        }
+
 .top-row {
     height: 3.5rem;
     display: flex;
