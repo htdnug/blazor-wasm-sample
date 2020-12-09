@@ -14,6 +14,7 @@ Unless otherwise noted, all changes made by [@jeremyknight-me](https://github.co
 - Added Blazor Server examples project
 - Added Blazor Server example showing how to update user display without user interaction using timers
 - Added Blazor Server PWA functionality (offline service worker)
+- Added Blazor pre-5.0 change page title functionality
 
 ### Changed
 
