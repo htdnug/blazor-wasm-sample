@@ -1,0 +1,20 @@
+﻿@page "/page-title"
+@using BlazorWasmClientSample.Extensions
+@inject IJSRuntime JS
+
+<h3>Page Title</h3>
+
+<button class="btn btn-primary" @onclick="ChangeTitle">Click me</button>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await this.JS.SetPageTitle(DateTimeOffset.Now.Ticks.ToString());
+        await base.OnAfterRenderAsync(firstRender);
+    }
+
+    private async Task ChangeTitle()
+    {
+        await this.JS.SetPageTitle(DateTimeOffset.Now.Ticks.ToString());
+    }
+}
