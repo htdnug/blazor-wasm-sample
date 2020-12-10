@@ -29,4 +29,3 @@ Unless otherwise noted, all changes made by [@jeremyknight-me](https://github.co
 - Event Callbacks
 - Javascript Interop
 - Cascading Parameters
-- Display server-side updates without user interaction
