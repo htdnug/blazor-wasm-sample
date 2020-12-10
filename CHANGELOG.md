@@ -19,3 +19,14 @@ Unless otherwise noted, all changes made by [@jeremyknight-me](https://github.co
 ### Changed
 
 - Moved examples previously in Hosted WASM example to Client WASM example
+
+## Aug 2020
+
+### Added
+
+- Code organizational options for component "code behind"
+- Parameters
+- Event Callbacks
+- Javascript Interop
+- Cascading Parameters
+- Display server-side updates without user interaction
